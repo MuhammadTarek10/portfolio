@@ -8,7 +8,7 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title: "Making Clients in the making is a priority.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently Working on a Invoice System SaaS App",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,35 +72,40 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://github.com/adrianhajdin?tab=repositories",
+    title: "Foodito Backend REST API",
+    des: "REST Apis for Foodito Mobile App",
+    img: "/rest.svg",
+    iconLists: ["/express.svg", "/ts.svg", "/database.svg"],
+    link: "https://github.com/MuhammadTarek10/foodito-backend",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    title: "AI Blog Generator",
+    des: "Generate Blogs from Youtube Videos using OpenAI's GPT-3.5",
+    img: "/book.svg",
+    iconLists: [
+      "/django.svg",
+      "/tail.svg",
+      "/openai.svg",
+      "/youtube.svg",
+    ],
+    link: "https://github.com/MuhammadTarek10/ai-blog-generator",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "https://github.com/adrianhajdin/ai_saas_app",
+    title: "Y 23 Project",
+    des: "CRM App that helps students in learining robotics and making instructors follow progress",
+    img: "/y-23.svg",
+    iconLists: ["/flutter.svg", "/firebase.svg", "/playstore.svg"],
+    link: "https://play.google.com/store/apps/details?id=com.tarek.y23",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "https://github.com/adrianhajdin/iphone",
+    title: "Google Docs Minimal Clone",
+    des: "Simple feature of making docs together, allows sharing and parralel documenting",
+    img: "/docs.svg",
+    iconLists: ["/express.svg", "/mongo.svg", "/websockets.svg"],
+    link: "https://github.com/MuhammadTarek10/docs-clone-nodejs",
   },
 ];
 
