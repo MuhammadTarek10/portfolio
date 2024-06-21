@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
-const RecentProjects = () => {
+const RecentProjects = ({bottomText}: {bottomText: string}) => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
@@ -27,7 +27,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="z-10 absolute bottom-0 h-full object-cover"
                 />
               </div>
 
@@ -60,7 +60,7 @@ const RecentProjects = () => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
+                     {item.bottomText}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>

@@ -1,14 +1,15 @@
 export const navItems = [
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
+  //{ name: "Testimonials", link: "#testimonials" },
+  { name: "Experience", link: "#experience" },
   { name: "Contact", link: "#contact" },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: "Making Clients in the making is a priority.",
+    title: "Making clients in the making is a priority.",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -77,6 +78,7 @@ export const projects = [
     img: "/rest.svg",
     iconLists: ["/express.svg", "/ts.svg", "/database.svg"],
     link: "https://github.com/MuhammadTarek10/foodito-backend",
+    bottomText: "Check Source Code",
   },
   {
     id: 2,
@@ -90,6 +92,7 @@ export const projects = [
       "/youtube.svg",
     ],
     link: "https://github.com/MuhammadTarek10/ai-blog-generator",
+    bottomText: "Check Source Code",
   },
   {
     id: 3,
@@ -98,6 +101,7 @@ export const projects = [
     img: "/y-23.svg",
     iconLists: ["/flutter.svg", "/firebase.svg", "/playstore.svg"],
     link: "https://play.google.com/store/apps/details?id=com.tarek.y23",
+    bottomText: "Check App on Store",
   },
   {
     id: 4,
@@ -106,6 +110,7 @@ export const projects = [
     img: "/docs.svg",
     iconLists: ["/express.svg", "/mongo.svg", "/websockets.svg"],
     link: "https://github.com/MuhammadTarek10/docs-clone-nodejs",
+    bottomText: "Check Source Code",
   },
 ];
 
@@ -176,47 +181,46 @@ export const companies = [
 ];
 
 export const workExperience = [
-  {
+{
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
-    className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    title: "Freelance FullStack Dev",
+    desc: "Made fullstack apps to clients using NextJs, ExpressJS, Django, Flask.",
+    className: "md:col-span-2", // change to md:col-span-2
+    thumbnail: "/exp4.svg",
   },
-  {
+   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile App Dev - Metas",
+    desc: "Designed and developed mobile app for both iOS & Android platforms using Flutter.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "Software Team Lead - Torpedo",
+    desc: "Designed and developed apps using PyQT and Python, implemented controlling mechanism and network configurations for the ROV.",
+    className: "md:col-span-2",
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Web Scraping Specialist",
+    desc: "Made scrappers that helped the company automate collecting data process.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
+
 ];
 
 export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://www.github.com/MuhammadTarek10",
   },
   {
     id: 2,
-    img: "/twit.svg",
-  },
-  {
-    id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/muhammad-tarek-4a674b194/",
   },
 ];
