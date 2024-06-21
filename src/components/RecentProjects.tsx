@@ -5,7 +5,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/Pin";
 
-const RecentProjects = ({bottomText}: {bottomText: string}) => {
+const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
       <h1 className="heading">
@@ -60,7 +60,7 @@ const RecentProjects = ({bottomText}: {bottomText: string}) => {
 
                 <div className="flex justify-center items-center">
                   <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                     {item.bottomText}
+                    {item.bottomText}
                   </p>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
